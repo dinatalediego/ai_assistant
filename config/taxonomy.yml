@@ -1,0 +1,21 @@
+intents:
+  precio: [precio, cuesta, costo, valor, desde]
+  financiamiento: [financiamiento, cuota, inicial, banco, crédito, bono]
+  ubicacion: [ubicación, direccion, dirección, queda, distrito]
+  disponibilidad: [disponible, disponibilidad, quedan, stock]
+  dormitorios: [dormitorio, dormitorios, habitación, habitaciones]
+  metraje: [m2, m², metros, metraje]
+  entrega: [entrega, entrega inmediata, fecha de entrega]
+  estacionamiento: [estacionamiento, cochera, parking]
+  promocion: [promoción, promocion, descuento, bono, oferta]
+  visita: [visita, sala de ventas, conocer, recorrer, cita, agendar]
+  asesor: [asesor, asesora, ejecutivo, vendedor]
+
+signals:
+  visit_offer: [agenda una visita, agendar una visita, visitar nuestra sala, sala de ventas, coordinar una visita, conocer el proyecto]
+  visit_interest: [quiero visitar, me gustaría visitar, me gustaria visitar, puedo ir, cuándo puedo ir, cuando puedo ir, agendemos, quisiera conocer]
+  handoff: [asesor se comunicará, asesor se comunicara, derivar con un asesor, comunicarte con un asesor, asesor de ventas]
+  rejection: [no me interesa, ya compré, ya compre, no gracias, demasiado caro, fuera de presupuesto]
+
+quality_flags:
+  greeting_only: [hola, buenos días, buenos dias, buenas tardes, buenas noches]
